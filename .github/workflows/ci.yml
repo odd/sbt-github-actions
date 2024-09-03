@@ -99,7 +99,7 @@ jobs:
           cache: sbt
 
       - name: Download target directories (2.12.18)
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: target-${{ matrix.os }}-2.12.18-${{ matrix.java }}
 
